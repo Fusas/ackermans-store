@@ -14,6 +14,4 @@ HTML
 CSS
 JavaScript - foi necessário o uso para ter o carrinho funcionando.
 
-Link do Projeto:
-
 Link Vercel: https://ackermans-store.vercel.app/
