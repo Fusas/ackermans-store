@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Produtos</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<h1>Ackerman's Store 🗡️</h1>
+<nav>
+<a href="index.html">Início</a>
+<a href="produtos.html">Produtos</a>
+<a href="carrinho.html">Carrinho 🛒 <span id="contador">0</span></a>
+<a href="contato.html">Fale Conosco</a>
+</nav>
+</header>
+
+<h2>Produtos</h2>
+
+<div class="container">
+
+<div class="produto">
+<img src="https://m.media-amazon.com/images/I/71WVN5IXeJL.jpg">
+<p>Mangá Attack on Titan</p>
+<strong>R$ 29,90</strong>
+<button onclick="adicionar('Mangá AOT', 29.90)">Adicionar</button>
+</div>
+
+<div class="produto">
+<img src="https://m.media-amazon.com/images/I/71q2-E9zLPL.jpg">
+<p>Poster Naruto</p>
+<strong>R$ 39,90</strong>
+<button onclick="adicionar('Poster Naruto', 39.90)">Adicionar</button>
+</div>
+
+<div class="produto">
+<img src="https://i5.walmartimages.com/asr/e74beab2-37a6-44a4-ac5c-b6f3d222bc35.968a847bd29fb37646da893eb1142793.jpeg">
+<p>Poster Attack on Titan</p>
+<strong>R$ 39,90</strong>
+<button onclick="adicionar('Poster AOT', 39.90)">Adicionar</button>
+</div>
+
+</div>
+
+<footer>
+<p>Arthur Monteiro | (31) 98346-7586 | tuzao.moteiro@gmail.com</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
